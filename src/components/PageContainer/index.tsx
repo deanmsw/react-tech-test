@@ -16,6 +16,7 @@ function PageContainer({ title, children }: Props) {
       alignItems={'center'}
       height={'100vh'}
       display={'flex'}
+      padding={'16px'}
     >   
       <VStack
         maxWidth={'1440px'}
